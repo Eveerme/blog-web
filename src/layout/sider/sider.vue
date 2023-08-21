@@ -22,6 +22,14 @@
         <el-icon><Avatar /></el-icon>
         <template #title>教师管理</template>
       </el-menu-item>
+      <el-menu-item index="/course" @click="navigateTo('/course')">
+        <el-icon><Avatar /></el-icon>
+        <template #title>学科管理</template>
+      </el-menu-item>
+      <el-menu-item index="/exam" @click="navigateTo('/exam')">
+        <el-icon><Avatar /></el-icon>
+        <template #title>考试管理</template>
+      </el-menu-item>
       <el-sub-menu index="/system">
         <template #title>
           <el-icon><setting /></el-icon>
